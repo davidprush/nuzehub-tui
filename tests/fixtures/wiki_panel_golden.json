@@ -1,0 +1,90 @@
+[
+ {
+  "article": {
+   "title": "Saturn",
+   "url": "https://en.wikipedia.org/wiki/Saturn",
+   "abstract": "Saturn is the sixth planet from the Sun.",
+   "text": "# Saturn\n\nbody"
+  },
+  "citation": {
+   "title": "Saturn",
+   "url": "https://en.wikipedia.org/wiki/Saturn",
+   "excerpt": "Saturn is the sixth planet from the Sun.",
+   "retrieved": "2026-11-21",
+   "via": "Server primary"
+  },
+  "markdown": "> Saturn is the sixth planet from the Sun.\n> — [Saturn](https://en.wikipedia.org/wiki/Saturn), Wikipedia, CC BY-SA 4.0. Retrieved 2026-11-21 from the Second Brain library (Server primary).",
+  "note": {
+   "title": "Saturn",
+   "markdown": "# Saturn\n\nWikipedia · CC BY-SA 4.0 · retrieved 2026-11-21\n\nhttps://en.wikipedia.org/wiki/Saturn\n\n> Saturn is the sixth planet from the Sun.\n\nSource: Wikipedia, \"Saturn\" (https://en.wikipedia.org/wiki/Saturn), CC BY-SA 4.0. From the Second Brain Wikipedia library (Server primary).\n"
+  },
+  "append1": {
+   "body": "My note\n\n> Saturn is the sixth planet from the Sun.\n> — [Saturn](https://en.wikipedia.org/wiki/Saturn), Wikipedia, CC BY-SA 4.0. Retrieved 2026-11-21 from the Second Brain library (Server primary).\n",
+   "added": true
+  },
+  "append2": {
+   "body": "My note\n\n> Saturn is the sixth planet from the Sun.\n> — [Saturn](https://en.wikipedia.org/wiki/Saturn), Wikipedia, CC BY-SA 4.0. Retrieved 2026-11-21 from the Second Brain library (Server primary).\n",
+   "added": false
+  },
+  "url": "https://en.wikipedia.org/wiki/Saturn",
+  "sel": "a selected passage of text"
+ },
+ {
+  "article": {
+   "title": "Titan (moon)",
+   "abstract": "",
+   "text": "# Titan (moon)\n\n| table |\n\n**Titan** is the largest moon of Saturn. It has a thick atmosphere. Huygens landed there in 2005 after a long cruise aboard Cassini, which had launched in 1997 and arrived at Saturn in 2004; the descent took about two and a half hours and the probe sent data from the surface for about seventy minutes before its batteries ran out, longer than planned, giving scientists images of river channels."
+  },
+  "citation": {
+   "title": "Titan (moon)",
+   "url": "https://en.wikipedia.org/wiki/Titan_%28moon%29",
+   "excerpt": "Titan is the largest moon of Saturn. It has a thick atmosphere. Huygens landed there in 2005 after a long cruise aboard Cassini, which had launched in 1997 and arrived at Saturn in 2004; the descent took about two and a half hours and the probe sent data from the surface for about seventy minutes before its batteries r…",
+   "retrieved": "2026-11-21",
+   "via": "Server primary"
+  },
+  "markdown": "> Titan is the largest moon of Saturn. It has a thick atmosphere. Huygens landed there in 2005 after a long cruise aboard Cassini, which had launched in 1997 and arrived at Saturn in 2004; the descent took about two and a half hours and the probe sent data from the surface for about seventy minutes before its batteries r…\n> — [Titan (moon)](https://en.wikipedia.org/wiki/Titan_%28moon%29), Wikipedia, CC BY-SA 4.0. Retrieved 2026-11-21 from the Second Brain library (Server primary).",
+  "note": {
+   "title": "Titan (moon)",
+   "markdown": "# Titan (moon)\n\nWikipedia · CC BY-SA 4.0 · retrieved 2026-11-21\n\nhttps://en.wikipedia.org/wiki/Titan_%28moon%29\n\n> Titan is the largest moon of Saturn. It has a thick atmosphere. Huygens landed there in 2005 after a long cruise aboard Cassini, which had launched in 1997 and arrived at Saturn in 2004; the descent took about two and a half hours and the probe sent data from the surface for about seventy minutes before its batteries r…\n\nSource: Wikipedia, \"Titan (moon)\" (https://en.wikipedia.org/wiki/Titan_%28moon%29), CC BY-SA 4.0. From the Second Brain Wikipedia library (Server primary).\n"
+  },
+  "append1": {
+   "body": "My note\n\n> Titan is the largest moon of Saturn. It has a thick atmosphere. Huygens landed there in 2005 after a long cruise aboard Cassini, which had launched in 1997 and arrived at Saturn in 2004; the descent took about two and a half hours and the probe sent data from the surface for about seventy minutes before its batteries r…\n> — [Titan (moon)](https://en.wikipedia.org/wiki/Titan_%28moon%29), Wikipedia, CC BY-SA 4.0. Retrieved 2026-11-21 from the Second Brain library (Server primary).\n",
+   "added": true
+  },
+  "append2": {
+   "body": "My note\n\n> Titan is the largest moon of Saturn. It has a thick atmosphere. Huygens landed there in 2005 after a long cruise aboard Cassini, which had launched in 1997 and arrived at Saturn in 2004; the descent took about two and a half hours and the probe sent data from the surface for about seventy minutes before its batteries r…\n> — [Titan (moon)](https://en.wikipedia.org/wiki/Titan_%28moon%29), Wikipedia, CC BY-SA 4.0. Retrieved 2026-11-21 from the Second Brain library (Server primary).\n",
+   "added": false
+  },
+  "url": "https://en.wikipedia.org/wiki/Titan_%28moon%29",
+  "sel": "a selected passage of text"
+ },
+ {
+  "article": {
+   "title": "AC/DC & Rock?",
+   "abstract": "A band.",
+   "text": ""
+  },
+  "citation": {
+   "title": "AC/DC & Rock?",
+   "url": "https://en.wikipedia.org/wiki/AC%2FDC_%26_Rock%3F",
+   "excerpt": "A band.",
+   "retrieved": "2026-11-21",
+   "via": "Server primary"
+  },
+  "markdown": "> A band.\n> — [AC/DC & Rock?](https://en.wikipedia.org/wiki/AC%2FDC_%26_Rock%3F), Wikipedia, CC BY-SA 4.0. Retrieved 2026-11-21 from the Second Brain library (Server primary).",
+  "note": {
+   "title": "AC/DC & Rock?",
+   "markdown": "# AC/DC & Rock?\n\nWikipedia · CC BY-SA 4.0 · retrieved 2026-11-21\n\nhttps://en.wikipedia.org/wiki/AC%2FDC_%26_Rock%3F\n\n> A band.\n\nSource: Wikipedia, \"AC/DC & Rock?\" (https://en.wikipedia.org/wiki/AC%2FDC_%26_Rock%3F), CC BY-SA 4.0. From the Second Brain Wikipedia library (Server primary).\n"
+  },
+  "append1": {
+   "body": "My note\n\n> A band.\n> — [AC/DC & Rock?](https://en.wikipedia.org/wiki/AC%2FDC_%26_Rock%3F), Wikipedia, CC BY-SA 4.0. Retrieved 2026-11-21 from the Second Brain library (Server primary).\n",
+   "added": true
+  },
+  "append2": {
+   "body": "My note\n\n> A band.\n> — [AC/DC & Rock?](https://en.wikipedia.org/wiki/AC%2FDC_%26_Rock%3F), Wikipedia, CC BY-SA 4.0. Retrieved 2026-11-21 from the Second Brain library (Server primary).\n",
+   "added": false
+  },
+  "url": "https://en.wikipedia.org/wiki/AC%2FDC_%26_Rock%3F",
+  "sel": "a selected passage of text"
+ }
+]

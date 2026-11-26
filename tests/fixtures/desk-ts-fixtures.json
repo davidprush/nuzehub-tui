@@ -1,0 +1,2335 @@
+{
+ "generatedBy": "web src/lib/desk rank.ts, places.ts, map-data.tsx (node --experimental-strip-types)",
+ "now": 1795456800000,
+ "stories": [
+  {
+   "id": "fx-0",
+   "title": "Ukraine and Poland agree new border crossing rules",
+   "summary": "Officials in Kyiv and Warsaw met for talks.",
+   "url": "https://a.example.invalid/world/0",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-23T17:30:00.000Z"
+  },
+  {
+   "id": "fx-1",
+   "title": "Ceasefire talks resume in Gaza",
+   "summary": "Negotiators from Egypt and Qatar return to Cairo.",
+   "url": "https://a.example.invalid/world/1",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-23T16:48:00.000Z"
+  },
+  {
+   "id": "fx-2",
+   "title": "Taiwan reports missile drills near its coast",
+   "summary": "Taipei said China held exercises.",
+   "url": "https://b.example.invalid/world/2",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-23T15:00:00.000Z"
+  },
+  {
+   "id": "fx-3",
+   "title": "Election results due in Brazil",
+   "summary": "Counting continues in Sao Paulo and Brasilia.",
+   "url": "https://b.example.invalid/world/3",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "id": "fx-4",
+   "title": "Tbilisi protests continue over election law",
+   "summary": "Georgian opposition rallies in the capital.",
+   "url": "https://a.example.invalid/world/4",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-23T07:00:00.000Z"
+  },
+  {
+   "id": "fx-5",
+   "title": "Atlanta, Georgia hosts tech summit",
+   "summary": "Startups gather in the US state for a week.",
+   "url": "https://c.example.invalid/tech/5",
+   "feedUrl": "https://feeds.invalid/tech.xml",
+   "publishedAt": "2026-11-23T05:00:00.000Z"
+  },
+  {
+   "id": "fx-6",
+   "title": "Pyongyang tests a new rocket engine",
+   "summary": "North Korea state media said the test was a success.",
+   "url": "https://b.example.invalid/world/6",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-22T22:00:00.000Z"
+  },
+  {
+   "id": "fx-7",
+   "title": "Seoul markets rally on chip exports",
+   "summary": "South Korea's exports rose for the ninth month.",
+   "url": "https://c.example.invalid/markets/7",
+   "feedUrl": "https://feeds.invalid/markets.xml",
+   "publishedAt": "2026-11-22T16:00:00.000Z"
+  },
+  {
+   "id": "fx-8",
+   "title": "Korea trade deal advances",
+   "summary": "Negotiators met in a neutral venue.",
+   "url": "https://c.example.invalid/markets/8",
+   "feedUrl": "https://feeds.invalid/markets.xml",
+   "publishedAt": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "id": "fx-9",
+   "title": "Côte d’Ivoire cocoa harvest beats forecasts",
+   "summary": "Abidjan exporters cite strong rains.",
+   "url": "https://a.example.invalid/markets/9",
+   "feedUrl": "https://feeds.invalid/markets.xml",
+   "publishedAt": "2026-11-22T02:00:00.000Z"
+  },
+  {
+   "id": "fx-10",
+   "title": "Iceland volcano alert raised again",
+   "summary": "Reykjanes eruption risk climbs; Reykjavik airport open.",
+   "url": "https://a.example.invalid/world/10",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-21T16:00:00.000Z"
+  },
+  {
+   "id": "fx-11",
+   "title": "Japan and Australia sign defence treaty",
+   "summary": "Tokyo and Canberra deepen military ties.",
+   "url": "https://b.example.invalid/world/11",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-21T06:00:00.000Z"
+  },
+  {
+   "id": "fx-12",
+   "title": "NATO summit opens in Brussels",
+   "summary": "Allies discuss sanctions on Russia and support for Ukraine.",
+   "url": "https://b.example.invalid/world/12",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-20T20:00:00.000Z"
+  },
+  {
+   "id": "fx-13",
+   "title": "Nuclear talks with Iran stall",
+   "summary": "Tehran rejects new inspection terms.",
+   "url": "https://a.example.invalid/world/13",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+   "id": "fx-14",
+   "title": "Wars of words: a history of diplomacy",
+   "summary": "An essay on treaties through the ages.",
+   "url": "https://c.example.invalid/culture/14",
+   "feedUrl": "https://feeds.invalid/culture.xml",
+   "publishedAt": "2026-11-19T19:00:00.000Z"
+  },
+  {
+   "id": "fx-15",
+   "title": "Warfare game studio raises funds",
+   "summary": "The studio in Sweden plans a sequel.",
+   "url": "https://c.example.invalid/tech/15",
+   "feedUrl": "https://feeds.invalid/tech.xml",
+   "publishedAt": "2026-11-19T14:00:00.000Z"
+  },
+  {
+   "id": "fx-16",
+   "title": "Mexico City braces for storm",
+   "summary": "Forecasters warn of flooding in Mexico.",
+   "url": "https://a.example.invalid/world/16",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-19T04:00:00.000Z"
+  },
+  {
+   "id": "fx-17",
+   "title": "Sponsored: best crypto picks",
+   "summary": "Advertisement for crypto tokens.",
+   "url": "https://d.example.invalid/ads/17",
+   "feedUrl": "https://feeds.invalid/ads.xml",
+   "publishedAt": "2026-11-23T16:00:00.000Z"
+  },
+  {
+   "id": "fx-18",
+   "title": "Celebrity gossip roundup",
+   "summary": "The week in celebrity news.",
+   "url": "https://c.example.invalid/gossip/18",
+   "feedUrl": "https://feeds.invalid/gossip.xml",
+   "publishedAt": "2026-11-23T14:00:00.000Z"
+  },
+  {
+   "id": "fx-19",
+   "title": "India and Pakistan hold border talks",
+   "summary": "New Delhi and Islamabad trade proposals.",
+   "url": "https://b.example.invalid/world/19",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-17T22:00:00.000Z"
+  },
+  {
+   "id": "fx-20",
+   "title": "Old story about Peru mining",
+   "summary": "Lima approves a copper mine.",
+   "url": "https://a.example.invalid/world/20",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-15T10:00:00.000Z"
+  },
+  {
+   "id": "fx-21",
+   "title": "Undated feature on Kenya wildlife",
+   "summary": "Nairobi park sees record visitors.",
+   "url": "https://a.example.invalid/world/21",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": ""
+  },
+  {
+   "id": "fx-22",
+   "title": "Saturn ring study published",
+   "summary": "Cassini data revisited by researchers.",
+   "url": "https://c.example.invalid/space/22",
+   "feedUrl": "https://feeds.invalid/space.xml",
+   "publishedAt": "2026-11-23T13:00:00.000Z"
+  },
+  {
+   "id": "fx-23",
+   "title": "Saturn rings younger than thought",
+   "summary": "Cassini measurements suggest recent origin.",
+   "url": "https://a.example.invalid/space/23",
+   "feedUrl": "https://feeds.invalid/space.xml",
+   "publishedAt": "2026-11-23T13:00:00.000Z"
+  },
+  {
+   "id": "fx-24",
+   "title": "Coup attempt reported in Niger",
+   "summary": "Niamey airport closed; troops on streets.",
+   "url": "https://b.example.invalid/world/24",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-23T16:30:00.000Z"
+  },
+  {
+   "id": "fx-25",
+   "title": "Airstrikes hit targets in Yemen",
+   "summary": "Sanaa residents report explosions.",
+   "url": "https://b.example.invalid/world/25",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-23T17:48:00.000Z"
+  },
+  {
+   "id": "fx-26",
+   "title": "Embargo on Venezuela oil eased",
+   "summary": "Caracas welcomes the move.",
+   "url": "https://a.example.invalid/world/26",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-23T09:00:00.000Z"
+  },
+  {
+   "id": "fx-27",
+   "title": "France and Germany plan joint jet",
+   "summary": "Paris and Berlin sign an accord; UK watches.",
+   "url": "https://c.example.invalid/world/27",
+   "feedUrl": "https://feeds.invalid/world.xml",
+   "publishedAt": "2026-11-23T03:00:00.000Z"
+  }
+ ],
+ "prefs": {
+  "sources": [
+   {
+    "id": "s0",
+    "name": "FX world",
+    "url": "https://feeds.invalid/world.xml",
+    "enabled": true
+   },
+   {
+    "id": "s1",
+    "name": "FX tech",
+    "url": "https://feeds.invalid/tech.xml",
+    "enabled": true
+   },
+   {
+    "id": "s2",
+    "name": "FX markets",
+    "url": "https://feeds.invalid/markets.xml",
+    "enabled": true
+   },
+   {
+    "id": "s3",
+    "name": "FX culture",
+    "url": "https://feeds.invalid/culture.xml",
+    "enabled": true
+   },
+   {
+    "id": "s4",
+    "name": "FX space",
+    "url": "https://feeds.invalid/space.xml",
+    "enabled": true
+   }
+  ],
+  "topics": [
+   {
+    "name": "Ukraine",
+    "weight": 5
+   },
+   {
+    "name": "chip exports",
+    "weight": 3
+   },
+   {
+    "name": "space science",
+    "weight": 12
+   },
+   {
+    "name": "x",
+    "weight": 2
+   }
+  ],
+  "boostKeywords": [
+   "Saturn",
+   ""
+  ],
+  "blockKeywords": [
+   "Sponsored"
+  ],
+  "concerns": [
+   "celebrity"
+  ],
+  "blockedHosts": [
+   "www.d.example.invalid"
+  ]
+ },
+ "votes": [
+  {
+   "url": "https://c.example.invalid/space/22",
+   "title": "Saturn ring study published",
+   "summary": "Cassini data revisited by researchers.",
+   "vote": 1
+  },
+  {
+   "url": "https://gone.invalid/1",
+   "title": "Rocket engine tests and missile drills",
+   "summary": "military exercises",
+   "vote": -1
+  }
+ ],
+ "links": [
+  {
+   "url": "https://x.com/fx/status/1",
+   "title": "Post about Lagos traffic",
+   "note": "Nigeria",
+   "author": "fx",
+   "kind": "x",
+   "at": "2026-11-23T17:00:00.000Z"
+  }
+ ],
+ "placements": [
+  {
+   "url": "https://c.example.invalid/culture/14",
+   "countryId": "250"
+  }
+ ],
+ "archive": [
+  {
+   "url": "https://arch.invalid/1",
+   "title": "Archived Chile note",
+   "countryId": "152",
+   "lon": -70.67,
+   "lat": -33.45,
+   "source": "Article"
+  },
+  {
+   "url": "https://a.example.invalid/world/0",
+   "title": "dup",
+   "countryId": "804",
+   "lon": 30.52,
+   "lat": 50.45,
+   "source": "x"
+  }
+ ],
+ "ranked": {
+  "1": [
+   {
+    "id": "fx-0",
+    "score": 6.6,
+    "taste": 0,
+    "hits": [
+     "Ukraine"
+    ],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-23",
+    "score": 6.1,
+    "taste": 2.5,
+    "hits": [
+     "Saturn"
+    ],
+    "sourceName": "FX space"
+   },
+   {
+    "id": "fx-22",
+    "score": 3.6,
+    "taste": 0,
+    "hits": [
+     "Saturn"
+    ],
+    "sourceName": "FX space"
+   },
+   {
+    "id": "fx-25",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-1",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-24",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-3",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-26",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-4",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-5",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX tech"
+   },
+   {
+    "id": "fx-27",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-2",
+    "score": -0.8999999999999999,
+    "taste": -2.5,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-6",
+    "score": -1.5,
+    "taste": -2.5,
+    "hits": [],
+    "sourceName": "FX world"
+   }
+  ],
+  "3": [
+   {
+    "id": "fx-0",
+    "score": 6.6,
+    "taste": 0,
+    "hits": [
+     "Ukraine"
+    ],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-23",
+    "score": 6.1,
+    "taste": 2.5,
+    "hits": [
+     "Saturn"
+    ],
+    "sourceName": "FX space"
+   },
+   {
+    "id": "fx-12",
+    "score": 6,
+    "taste": 0,
+    "hits": [
+     "Ukraine"
+    ],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-7",
+    "score": 4,
+    "taste": 0,
+    "hits": [
+     "chip exports"
+    ],
+    "sourceName": "FX markets"
+   },
+   {
+    "id": "fx-22",
+    "score": 3.6,
+    "taste": 0,
+    "hits": [
+     "Saturn"
+    ],
+    "sourceName": "FX space"
+   },
+   {
+    "id": "fx-25",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-1",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-24",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-3",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-26",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-4",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-5",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX tech"
+   },
+   {
+    "id": "fx-27",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-8",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX markets"
+   },
+   {
+    "id": "fx-9",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX markets"
+   },
+   {
+    "id": "fx-10",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-21",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-2",
+    "score": -0.8999999999999999,
+    "taste": -2.5,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-6",
+    "score": -1.5,
+    "taste": -2.5,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-11",
+    "score": -1.5,
+    "taste": -2.5,
+    "hits": [],
+    "sourceName": "FX world"
+   }
+  ],
+  "7": [
+   {
+    "id": "fx-0",
+    "score": 6.6,
+    "taste": 0,
+    "hits": [
+     "Ukraine"
+    ],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-23",
+    "score": 6.1,
+    "taste": 2.5,
+    "hits": [
+     "Saturn"
+    ],
+    "sourceName": "FX space"
+   },
+   {
+    "id": "fx-12",
+    "score": 6,
+    "taste": 0,
+    "hits": [
+     "Ukraine"
+    ],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-7",
+    "score": 4,
+    "taste": 0,
+    "hits": [
+     "chip exports"
+    ],
+    "sourceName": "FX markets"
+   },
+   {
+    "id": "fx-22",
+    "score": 3.6,
+    "taste": 0,
+    "hits": [
+     "Saturn"
+    ],
+    "sourceName": "FX space"
+   },
+   {
+    "id": "fx-25",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-1",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-24",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-3",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-26",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-4",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-5",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX tech"
+   },
+   {
+    "id": "fx-27",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-8",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX markets"
+   },
+   {
+    "id": "fx-9",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX markets"
+   },
+   {
+    "id": "fx-10",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-13",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-14",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX culture"
+   },
+   {
+    "id": "fx-15",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX tech"
+   },
+   {
+    "id": "fx-16",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-19",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-21",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-2",
+    "score": -0.8999999999999999,
+    "taste": -2.5,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-6",
+    "score": -1.5,
+    "taste": -2.5,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-11",
+    "score": -1.5,
+    "taste": -2.5,
+    "hits": [],
+    "sourceName": "FX world"
+   }
+  ],
+  "all": [
+   {
+    "id": "fx-0",
+    "score": 6.6,
+    "taste": 0,
+    "hits": [
+     "Ukraine"
+    ],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-23",
+    "score": 6.1,
+    "taste": 2.5,
+    "hits": [
+     "Saturn"
+    ],
+    "sourceName": "FX space"
+   },
+   {
+    "id": "fx-12",
+    "score": 6,
+    "taste": 0,
+    "hits": [
+     "Ukraine"
+    ],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-7",
+    "score": 4,
+    "taste": 0,
+    "hits": [
+     "chip exports"
+    ],
+    "sourceName": "FX markets"
+   },
+   {
+    "id": "fx-22",
+    "score": 3.6,
+    "taste": 0,
+    "hits": [
+     "Saturn"
+    ],
+    "sourceName": "FX space"
+   },
+   {
+    "id": "fx-25",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-1",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-24",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-3",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-26",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-4",
+    "score": 1.6,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-5",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX tech"
+   },
+   {
+    "id": "fx-27",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-8",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX markets"
+   },
+   {
+    "id": "fx-9",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX markets"
+   },
+   {
+    "id": "fx-10",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-13",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-14",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX culture"
+   },
+   {
+    "id": "fx-15",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX tech"
+   },
+   {
+    "id": "fx-16",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-19",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-20",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-21",
+    "score": 1,
+    "taste": 0,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-2",
+    "score": -0.8999999999999999,
+    "taste": -2.5,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-6",
+    "score": -1.5,
+    "taste": -2.5,
+    "hits": [],
+    "sourceName": "FX world"
+   },
+   {
+    "id": "fx-11",
+    "score": -1.5,
+    "taste": -2.5,
+    "hits": [],
+    "sourceName": "FX world"
+   }
+  ]
+ },
+ "noVotes": [
+  {
+   "id": "fx-25",
+   "score": 1.6,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-0",
+   "score": 1.6,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-1",
+   "score": 1.6,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-24",
+   "score": 1.6,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-2",
+   "score": 1.6,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-22",
+   "score": 1.6,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX space"
+  },
+  {
+   "id": "fx-23",
+   "score": 1.6,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX space"
+  },
+  {
+   "id": "fx-3",
+   "score": 1.6,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-26",
+   "score": 1.6,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-4",
+   "score": 1.6,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-5",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX tech"
+  },
+  {
+   "id": "fx-27",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-6",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-7",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX markets"
+  },
+  {
+   "id": "fx-8",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX markets"
+  },
+  {
+   "id": "fx-9",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX markets"
+  },
+  {
+   "id": "fx-10",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-11",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-12",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-13",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-14",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX culture"
+  },
+  {
+   "id": "fx-15",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX tech"
+  },
+  {
+   "id": "fx-16",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-19",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  },
+  {
+   "id": "fx-21",
+   "score": 1,
+   "taste": 0,
+   "hits": [],
+   "sourceName": "FX world"
+  }
+ ],
+ "geo": [
+  "fx-0",
+  "fx-12",
+  "fx-25",
+  "fx-1",
+  "fx-24",
+  "fx-3",
+  "fx-26",
+  "fx-4",
+  "fx-5",
+  "fx-13",
+  "fx-14",
+  "fx-19",
+  "fx-2",
+  "fx-11"
+ ],
+ "detect": [
+  [
+   "UA",
+   "PL"
+  ],
+  [
+   "PS",
+   "QA",
+   "EG"
+  ],
+  [
+   "TW",
+   "CN"
+  ],
+  [
+   "BR"
+  ],
+  [
+   "GE"
+  ],
+  [],
+  [
+   "KP"
+  ],
+  [
+   "KR"
+  ],
+  [
+   "KR"
+  ],
+  [
+   "CI"
+  ],
+  [
+   "IS"
+  ],
+  [
+   "AU",
+   "JP"
+  ],
+  [
+   "BE",
+   "UA",
+   "RU"
+  ],
+  [
+   "IR"
+  ],
+  [],
+  [
+   "SE"
+  ],
+  [
+   "MX"
+  ],
+  [],
+  [],
+  [
+   "PK",
+   "IN"
+  ],
+  [
+   "PE"
+  ],
+  [
+   "KE"
+  ],
+  [],
+  [],
+  [
+   "NE"
+  ],
+  [
+   "YE"
+  ],
+  [
+   "VE"
+  ],
+  [
+   "DE",
+   "FR",
+   "GB"
+  ]
+ ],
+ "map": {
+  "displayed": [
+   {
+    "url": "https://a.example.invalid/world/0",
+    "title": "Ukraine and Poland agree new border crossing rules",
+    "countryId": "804",
+    "lon": 30.52,
+    "lat": 50.45,
+    "source": "a.example.invalid"
+   },
+   {
+    "url": "https://a.example.invalid/world/1",
+    "title": "Ceasefire talks resume in Gaza",
+    "countryId": "275",
+    "lon": 35.2,
+    "lat": 31.9,
+    "source": "a.example.invalid"
+   },
+   {
+    "url": "https://b.example.invalid/world/2",
+    "title": "Taiwan reports missile drills near its coast",
+    "countryId": "158",
+    "lon": 121.57,
+    "lat": 25.03,
+    "source": "b.example.invalid"
+   },
+   {
+    "url": "https://b.example.invalid/world/3",
+    "title": "Election results due in Brazil",
+    "countryId": "076",
+    "lon": -47.88,
+    "lat": -15.79,
+    "source": "b.example.invalid"
+   },
+   {
+    "url": "https://a.example.invalid/world/4",
+    "title": "Tbilisi protests continue over election law",
+    "countryId": "268",
+    "lon": 44.83,
+    "lat": 41.69,
+    "source": "a.example.invalid"
+   },
+   {
+    "url": "https://b.example.invalid/world/6",
+    "title": "Pyongyang tests a new rocket engine",
+    "countryId": "408",
+    "lon": 125.75,
+    "lat": 39.04,
+    "source": "b.example.invalid"
+   },
+   {
+    "url": "https://c.example.invalid/markets/7",
+    "title": "Seoul markets rally on chip exports",
+    "countryId": "410",
+    "lon": 126.98,
+    "lat": 37.57,
+    "source": "c.example.invalid"
+   },
+   {
+    "url": "https://c.example.invalid/markets/8",
+    "title": "Korea trade deal advances",
+    "countryId": "410",
+    "lon": 126.98,
+    "lat": 37.57,
+    "source": "c.example.invalid"
+   },
+   {
+    "url": "https://a.example.invalid/markets/9",
+    "title": "Côte d’Ivoire cocoa harvest beats forecasts",
+    "countryId": "384",
+    "lon": -5.28,
+    "lat": 6.82,
+    "source": "a.example.invalid"
+   },
+   {
+    "url": "https://a.example.invalid/world/10",
+    "title": "Iceland volcano alert raised again",
+    "countryId": "352",
+    "lon": -21.94,
+    "lat": 64.15,
+    "source": "a.example.invalid"
+   },
+   {
+    "url": "https://b.example.invalid/world/11",
+    "title": "Japan and Australia sign defence treaty",
+    "countryId": "036",
+    "lon": 149.13,
+    "lat": -35.28,
+    "source": "b.example.invalid"
+   },
+   {
+    "url": "https://b.example.invalid/world/12",
+    "title": "NATO summit opens in Brussels",
+    "countryId": "056",
+    "lon": 4.35,
+    "lat": 50.85,
+    "source": "b.example.invalid"
+   },
+   {
+    "url": "https://a.example.invalid/world/13",
+    "title": "Nuclear talks with Iran stall",
+    "countryId": "364",
+    "lon": 51.39,
+    "lat": 35.69,
+    "source": "a.example.invalid"
+   },
+   {
+    "url": "https://c.example.invalid/culture/14",
+    "title": "Wars of words: a history of diplomacy",
+    "countryId": "250",
+    "lon": 2.35,
+    "lat": 48.86,
+    "source": "c.example.invalid"
+   },
+   {
+    "url": "https://c.example.invalid/tech/15",
+    "title": "Warfare game studio raises funds",
+    "countryId": "752",
+    "lon": 18.07,
+    "lat": 59.33,
+    "source": "c.example.invalid"
+   },
+   {
+    "url": "https://a.example.invalid/world/16",
+    "title": "Mexico City braces for storm",
+    "countryId": "484",
+    "lon": -99.13,
+    "lat": 19.43,
+    "source": "a.example.invalid"
+   },
+   {
+    "url": "https://b.example.invalid/world/19",
+    "title": "India and Pakistan hold border talks",
+    "countryId": "586",
+    "lon": 73.06,
+    "lat": 33.69,
+    "source": "b.example.invalid"
+   },
+   {
+    "url": "https://a.example.invalid/world/20",
+    "title": "Old story about Peru mining",
+    "countryId": "604",
+    "lon": -77.04,
+    "lat": -12.05,
+    "source": "a.example.invalid"
+   },
+   {
+    "url": "https://a.example.invalid/world/21",
+    "title": "Undated feature on Kenya wildlife",
+    "countryId": "404",
+    "lon": 36.82,
+    "lat": -1.29,
+    "source": "a.example.invalid"
+   },
+   {
+    "url": "https://b.example.invalid/world/24",
+    "title": "Coup attempt reported in Niger",
+    "countryId": "562",
+    "lon": 2.13,
+    "lat": 13.51,
+    "source": "b.example.invalid"
+   },
+   {
+    "url": "https://b.example.invalid/world/25",
+    "title": "Airstrikes hit targets in Yemen",
+    "countryId": "887",
+    "lon": 44.21,
+    "lat": 15.35,
+    "source": "b.example.invalid"
+   },
+   {
+    "url": "https://a.example.invalid/world/26",
+    "title": "Embargo on Venezuela oil eased",
+    "countryId": "862",
+    "lon": -66.9,
+    "lat": 10.48,
+    "source": "a.example.invalid"
+   },
+   {
+    "url": "https://c.example.invalid/world/27",
+    "title": "France and Germany plan joint jet",
+    "countryId": "276",
+    "lon": 13.4,
+    "lat": 52.52,
+    "source": "c.example.invalid"
+   },
+   {
+    "url": "https://x.com/fx/status/1",
+    "title": "Post about Lagos traffic",
+    "countryId": "566",
+    "lon": 7.49,
+    "lat": 9.08,
+    "source": "X post"
+   },
+   {
+    "url": "https://arch.invalid/1",
+    "title": "Archived Chile note",
+    "countryId": "152",
+    "lon": -70.67,
+    "lat": -33.45,
+    "source": "Article"
+   }
+  ],
+  "extras": [
+   {
+    "url": "https://a.example.invalid/world/0",
+    "countryId": "616"
+   },
+   {
+    "url": "https://a.example.invalid/world/1",
+    "countryId": "634"
+   },
+   {
+    "url": "https://a.example.invalid/world/1",
+    "countryId": "818"
+   },
+   {
+    "url": "https://b.example.invalid/world/2",
+    "countryId": "156"
+   },
+   {
+    "url": "https://b.example.invalid/world/11",
+    "countryId": "392"
+   },
+   {
+    "url": "https://b.example.invalid/world/12",
+    "countryId": "804"
+   },
+   {
+    "url": "https://b.example.invalid/world/12",
+    "countryId": "643"
+   },
+   {
+    "url": "https://b.example.invalid/world/19",
+    "countryId": "356"
+   },
+   {
+    "url": "https://c.example.invalid/world/27",
+    "countryId": "250"
+   },
+   {
+    "url": "https://c.example.invalid/world/27",
+    "countryId": "826"
+   }
+  ],
+  "counts": [
+   [
+    "804",
+    2
+   ],
+   [
+    "275",
+    1
+   ],
+   [
+    "158",
+    1
+   ],
+   [
+    "076",
+    1
+   ],
+   [
+    "268",
+    1
+   ],
+   [
+    "408",
+    1
+   ],
+   [
+    "410",
+    2
+   ],
+   [
+    "384",
+    1
+   ],
+   [
+    "352",
+    1
+   ],
+   [
+    "036",
+    1
+   ],
+   [
+    "056",
+    1
+   ],
+   [
+    "364",
+    1
+   ],
+   [
+    "250",
+    2
+   ],
+   [
+    "752",
+    1
+   ],
+   [
+    "484",
+    1
+   ],
+   [
+    "586",
+    1
+   ],
+   [
+    "604",
+    1
+   ],
+   [
+    "404",
+    1
+   ],
+   [
+    "562",
+    1
+   ],
+   [
+    "887",
+    1
+   ],
+   [
+    "862",
+    1
+   ],
+   [
+    "276",
+    1
+   ],
+   [
+    "566",
+    1
+   ],
+   [
+    "152",
+    1
+   ],
+   [
+    "616",
+    1
+   ],
+   [
+    "634",
+    1
+   ],
+   [
+    "818",
+    1
+   ],
+   [
+    "156",
+    1
+   ],
+   [
+    "392",
+    1
+   ],
+   [
+    "643",
+    1
+   ],
+   [
+    "356",
+    1
+   ],
+   [
+    "826",
+    1
+   ]
+  ],
+  "ranked": [
+   [
+    "250",
+    2
+   ],
+   [
+    "410",
+    2
+   ],
+   [
+    "804",
+    2
+   ],
+   [
+    "036",
+    1
+   ],
+   [
+    "056",
+    1
+   ],
+   [
+    "076",
+    1
+   ],
+   [
+    "152",
+    1
+   ],
+   [
+    "156",
+    1
+   ],
+   [
+    "384",
+    1
+   ],
+   [
+    "818",
+    1
+   ],
+   [
+    "268",
+    1
+   ],
+   [
+    "276",
+    1
+   ],
+   [
+    "352",
+    1
+   ],
+   [
+    "356",
+    1
+   ],
+   [
+    "364",
+    1
+   ],
+   [
+    "392",
+    1
+   ],
+   [
+    "404",
+    1
+   ],
+   [
+    "484",
+    1
+   ],
+   [
+    "562",
+    1
+   ],
+   [
+    "566",
+    1
+   ],
+   [
+    "408",
+    1
+   ],
+   [
+    "586",
+    1
+   ],
+   [
+    "275",
+    1
+   ],
+   [
+    "604",
+    1
+   ],
+   [
+    "616",
+    1
+   ],
+   [
+    "634",
+    1
+   ],
+   [
+    "643",
+    1
+   ],
+   [
+    "752",
+    1
+   ],
+   [
+    "158",
+    1
+   ],
+   [
+    "826",
+    1
+   ],
+   [
+    "862",
+    1
+   ],
+   [
+    "887",
+    1
+   ]
+  ],
+  "maxCount": 2,
+  "locations": [
+   {
+    "key": "37.57,126.98",
+    "countryId": "410",
+    "urls": [
+     "https://c.example.invalid/markets/7",
+     "https://c.example.invalid/markets/8"
+    ],
+    "freshest": 1560
+   },
+   {
+    "key": "50.45,30.52",
+    "countryId": "804",
+    "urls": [
+     "https://a.example.invalid/world/0"
+    ],
+    "freshest": 30
+   },
+   {
+    "key": "31.90,35.20",
+    "countryId": "275",
+    "urls": [
+     "https://a.example.invalid/world/1"
+    ],
+    "freshest": 72
+   },
+   {
+    "key": "25.03,121.57",
+    "countryId": "158",
+    "urls": [
+     "https://b.example.invalid/world/2"
+    ],
+    "freshest": 180
+   },
+   {
+    "key": "-15.79,-47.88",
+    "countryId": "076",
+    "urls": [
+     "https://b.example.invalid/world/3"
+    ],
+    "freshest": 420
+   },
+   {
+    "key": "41.69,44.83",
+    "countryId": "268",
+    "urls": [
+     "https://a.example.invalid/world/4"
+    ],
+    "freshest": 660
+   },
+   {
+    "key": "39.04,125.75",
+    "countryId": "408",
+    "urls": [
+     "https://b.example.invalid/world/6"
+    ],
+    "freshest": 1200
+   },
+   {
+    "key": "6.82,-5.28",
+    "countryId": "384",
+    "urls": [
+     "https://a.example.invalid/markets/9"
+    ],
+    "freshest": 2400
+   },
+   {
+    "key": "64.15,-21.94",
+    "countryId": "352",
+    "urls": [
+     "https://a.example.invalid/world/10"
+    ],
+    "freshest": 3000
+   },
+   {
+    "key": "-35.28,149.13",
+    "countryId": "036",
+    "urls": [
+     "https://b.example.invalid/world/11"
+    ],
+    "freshest": 3600
+   },
+   {
+    "key": "50.85,4.35",
+    "countryId": "056",
+    "urls": [
+     "https://b.example.invalid/world/12"
+    ],
+    "freshest": 4200
+   },
+   {
+    "key": "35.69,51.39",
+    "countryId": "364",
+    "urls": [
+     "https://a.example.invalid/world/13"
+    ],
+    "freshest": 4800
+   },
+   {
+    "key": "48.86,2.35",
+    "countryId": "250",
+    "urls": [
+     "https://c.example.invalid/culture/14"
+    ],
+    "freshest": 5700
+   },
+   {
+    "key": "59.33,18.07",
+    "countryId": "752",
+    "urls": [
+     "https://c.example.invalid/tech/15"
+    ],
+    "freshest": 6000
+   },
+   {
+    "key": "19.43,-99.13",
+    "countryId": "484",
+    "urls": [
+     "https://a.example.invalid/world/16"
+    ],
+    "freshest": 6600
+   },
+   {
+    "key": "33.69,73.06",
+    "countryId": "586",
+    "urls": [
+     "https://b.example.invalid/world/19"
+    ],
+    "freshest": 8400
+   },
+   {
+    "key": "-12.05,-77.04",
+    "countryId": "604",
+    "urls": [
+     "https://a.example.invalid/world/20"
+    ],
+    "freshest": 12000
+   },
+   {
+    "key": "-1.29,36.82",
+    "countryId": "404",
+    "urls": [
+     "https://a.example.invalid/world/21"
+    ],
+    "freshest": null
+   },
+   {
+    "key": "13.51,2.13",
+    "countryId": "562",
+    "urls": [
+     "https://b.example.invalid/world/24"
+    ],
+    "freshest": 90
+   },
+   {
+    "key": "15.35,44.21",
+    "countryId": "887",
+    "urls": [
+     "https://b.example.invalid/world/25"
+    ],
+    "freshest": 12
+   },
+   {
+    "key": "10.48,-66.90",
+    "countryId": "862",
+    "urls": [
+     "https://a.example.invalid/world/26"
+    ],
+    "freshest": 540
+   },
+   {
+    "key": "52.52,13.40",
+    "countryId": "276",
+    "urls": [
+     "https://c.example.invalid/world/27"
+    ],
+    "freshest": 900
+   },
+   {
+    "key": "9.08,7.49",
+    "countryId": "566",
+    "urls": [
+     "https://x.com/fx/status/1"
+    ],
+    "freshest": null
+   },
+   {
+    "key": "-33.45,-70.67",
+    "countryId": "152",
+    "urls": [
+     "https://arch.invalid/1"
+    ],
+    "freshest": null
+   }
+  ],
+  "arcs": [
+   [
+    "616-804",
+    1
+   ],
+   [
+    "275-634",
+    1
+   ],
+   [
+    "275-818",
+    1
+   ],
+   [
+    "156-158",
+    1
+   ],
+   [
+    "036-392",
+    1
+   ],
+   [
+    "056-804",
+    1
+   ],
+   [
+    "056-643",
+    1
+   ],
+   [
+    "356-586",
+    1
+   ],
+   [
+    "250-276",
+    1
+   ],
+   [
+    "276-826",
+    1
+   ]
+  ],
+  "countryForUrl": [
+   [
+    "https://a.example.invalid/world/0",
+    "804"
+   ],
+   [
+    "https://a.example.invalid/world/1",
+    "275"
+   ],
+   [
+    "https://b.example.invalid/world/2",
+    "158"
+   ],
+   [
+    "https://b.example.invalid/world/3",
+    "076"
+   ],
+   [
+    "https://a.example.invalid/world/4",
+    "268"
+   ],
+   [
+    "https://b.example.invalid/world/6",
+    "408"
+   ],
+   [
+    "https://c.example.invalid/markets/7",
+    "410"
+   ],
+   [
+    "https://c.example.invalid/markets/8",
+    "410"
+   ],
+   [
+    "https://a.example.invalid/markets/9",
+    "384"
+   ],
+   [
+    "https://a.example.invalid/world/10",
+    "352"
+   ],
+   [
+    "https://b.example.invalid/world/11",
+    "036"
+   ],
+   [
+    "https://b.example.invalid/world/12",
+    "056"
+   ],
+   [
+    "https://a.example.invalid/world/13",
+    "364"
+   ],
+   [
+    "https://c.example.invalid/culture/14",
+    "250"
+   ],
+   [
+    "https://c.example.invalid/tech/15",
+    "752"
+   ],
+   [
+    "https://a.example.invalid/world/16",
+    "484"
+   ],
+   [
+    "https://b.example.invalid/world/19",
+    "586"
+   ],
+   [
+    "https://a.example.invalid/world/20",
+    "604"
+   ],
+   [
+    "https://a.example.invalid/world/21",
+    "404"
+   ],
+   [
+    "https://b.example.invalid/world/24",
+    "562"
+   ],
+   [
+    "https://b.example.invalid/world/25",
+    "887"
+   ],
+   [
+    "https://a.example.invalid/world/26",
+    "862"
+   ],
+   [
+    "https://c.example.invalid/world/27",
+    "276"
+   ],
+   [
+    "https://x.com/fx/status/1",
+    "566"
+   ],
+   [
+    "https://arch.invalid/1",
+    "152"
+   ]
+  ]
+ },
+ "mapPicture": {
+  "displayed": [
+   {
+    "url": "https://arch.invalid/1",
+    "title": "Archived Chile note",
+    "countryId": "152",
+    "lon": -70.67,
+    "lat": -33.45,
+    "source": "Article"
+   },
+   {
+    "url": "https://a.example.invalid/world/0",
+    "title": "dup",
+    "countryId": "804",
+    "lon": 30.52,
+    "lat": 50.45,
+    "source": "x"
+   }
+  ],
+  "extras": [
+   {
+    "url": "https://a.example.invalid/world/0",
+    "countryId": "616"
+   },
+   {
+    "url": "https://a.example.invalid/world/1",
+    "countryId": "634"
+   },
+   {
+    "url": "https://a.example.invalid/world/1",
+    "countryId": "818"
+   },
+   {
+    "url": "https://b.example.invalid/world/2",
+    "countryId": "156"
+   },
+   {
+    "url": "https://b.example.invalid/world/11",
+    "countryId": "392"
+   },
+   {
+    "url": "https://b.example.invalid/world/12",
+    "countryId": "804"
+   },
+   {
+    "url": "https://b.example.invalid/world/12",
+    "countryId": "643"
+   },
+   {
+    "url": "https://b.example.invalid/world/19",
+    "countryId": "356"
+   },
+   {
+    "url": "https://c.example.invalid/world/27",
+    "countryId": "250"
+   },
+   {
+    "url": "https://c.example.invalid/world/27",
+    "countryId": "826"
+   }
+  ],
+  "counts": [
+   [
+    "152",
+    1
+   ],
+   [
+    "804",
+    1
+   ]
+  ],
+  "ranked": [
+   [
+    "152",
+    1
+   ],
+   [
+    "804",
+    1
+   ]
+  ],
+  "maxCount": 1,
+  "locations": [
+   {
+    "key": "-33.45,-70.67",
+    "countryId": "152",
+    "urls": [
+     "https://arch.invalid/1"
+    ],
+    "freshest": null
+   },
+   {
+    "key": "50.45,30.52",
+    "countryId": "804",
+    "urls": [
+     "https://a.example.invalid/world/0"
+    ],
+    "freshest": 30
+   }
+  ],
+  "arcs": [],
+  "countryForUrl": [
+   [
+    "https://a.example.invalid/world/0",
+    "804"
+   ],
+   [
+    "https://a.example.invalid/world/1",
+    "275"
+   ],
+   [
+    "https://b.example.invalid/world/2",
+    "158"
+   ],
+   [
+    "https://b.example.invalid/world/3",
+    "076"
+   ],
+   [
+    "https://a.example.invalid/world/4",
+    "268"
+   ],
+   [
+    "https://b.example.invalid/world/6",
+    "408"
+   ],
+   [
+    "https://c.example.invalid/markets/7",
+    "410"
+   ],
+   [
+    "https://c.example.invalid/markets/8",
+    "410"
+   ],
+   [
+    "https://a.example.invalid/markets/9",
+    "384"
+   ],
+   [
+    "https://a.example.invalid/world/10",
+    "352"
+   ],
+   [
+    "https://b.example.invalid/world/11",
+    "036"
+   ],
+   [
+    "https://b.example.invalid/world/12",
+    "056"
+   ],
+   [
+    "https://a.example.invalid/world/13",
+    "364"
+   ],
+   [
+    "https://c.example.invalid/culture/14",
+    "250"
+   ],
+   [
+    "https://c.example.invalid/tech/15",
+    "752"
+   ],
+   [
+    "https://a.example.invalid/world/16",
+    "484"
+   ],
+   [
+    "https://b.example.invalid/world/19",
+    "586"
+   ],
+   [
+    "https://a.example.invalid/world/20",
+    "604"
+   ],
+   [
+    "https://a.example.invalid/world/21",
+    "404"
+   ],
+   [
+    "https://b.example.invalid/world/24",
+    "562"
+   ],
+   [
+    "https://b.example.invalid/world/25",
+    "887"
+   ],
+   [
+    "https://a.example.invalid/world/26",
+    "862"
+   ],
+   [
+    "https://c.example.invalid/world/27",
+    "276"
+   ],
+   [
+    "https://x.com/fx/status/1",
+    "566"
+   ],
+   [
+    "https://arch.invalid/1",
+    "152"
+   ]
+  ]
+ },
+ "heat": [
+  0,
+  1,
+  2,
+  3,
+  3,
+  4,
+  4,
+  4,
+  5,
+  5,
+  5
+ ],
+ "norms": [
+  [
+   "Côte d’Ivoire",
+   "cote divoire"
+  ],
+  [
+   "São Tomé & Príncipe",
+   "sao tome principe"
+  ],
+  [
+   "U.S.A. — news",
+   "u.s.a. news"
+  ],
+  [
+   "  Kyiv's   mayor ",
+   "kyivs mayor"
+  ]
+ ]
+}

@@ -1,0 +1,12 @@
+NuzeHub TUI reuses, under the MIT license:
+- Dirlume 1.1.1 theme palettes, Dirlume 1.7.x button roles and menu bar (Copyright (c) 2026 Dirlume contributors),
+  as adapted in SSHush 0.7.0 / 1.0.0: src/nuzehub_tui/themes.py, ui/dlayout.py, ui/menubar.py.
+- Dirlume 1.7.3 remote.py (truecolor, force_truecolor, kitty_env) (Copyright (c) 2026 Dirlume contributors):
+  src/nuzehub_tui/remote.py.
+- Dirlume 1.7.3 termgfx.py graphics ladder (environment only, textual-image probe pre-empted) and remote.utf8
+  (Copyright (c) 2026 Dirlume contributors): src/nuzehub_tui/mapgfx.py.
+0.2.0 Desk data: src/nuzehub_tui/data/world110m.json is world-atlas countries-110m (ISC License, Copyright 2013-2019
+Michael Bostock), made from Natural Earth (public domain), cleaned as NuzeHub's geo-clean.ts does;
+src/nuzehub_tui/data/countries.json is NuzeHub's own gazetteer (src/lib/desk/gazetteer.ts).
+New runtime dependencies in 0.2.0: textual-image (LGPL-3.0) and Pillow (MIT-CMU), used for the Kitty-graphics map.
+Wikipedia text shown by the TUI comes from the Second Brain library, CC BY-SA 4.0.

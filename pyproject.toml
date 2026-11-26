@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nuzehub-tui"
+version = "0.2.3"
+description = "Keyboard-first Textual client of the NuzeHub desk: the OPS Desk, News, Markets, GEO, Brain, the Wikipedia Library and status."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.11,<3.14"
+authors = [{ name = "David Rush" }]
+keywords = ["tui", "textual", "macos", "nuzehub", "second-brain"]
+classifiers = [
+  "Environment :: Console",
+  "Operating System :: MacOS",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+  "textual>=8.2,<9",
+  "rich>=14,<15",
+  "textual-image>=0.8",
+  "Pillow",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3,<9",
+  "pytest-asyncio>=0.24,<1",
+  "pytest-textual-snapshot>=1.0,<2",
+  "ruff>=0.8,<1",
+  "mypy>=1.13,<2",
+  "build>=1.2,<2",
+]
+
+[project.scripts]
+nuzehub-tui = "nuzehub_tui.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+nuzehub_tui = ["py.typed", "data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+pythonpath = ["src", "tests"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501", "B008"]
+
+[tool.mypy]
+python_version = "3.11"
+packages = ["nuzehub_tui"]
+mypy_path = "src"
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_redundant_casts = true
