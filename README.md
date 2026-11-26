@@ -119,7 +119,7 @@ The map is a Kitty-graphics image in Ghostty/Kitty (not inside tmux), Braille el
 
 ### Wikipedia
 
-Results stay pinned to the library `brain wiki status` names: if the library is off, missing or answers from another file, the panel says so, keeps your search, and shows no results. Cite picks a note (or "New note"); a note cites an article once. Save to Brain files the article in Resources with the tag `wikipedia`. Both can be undone with `u` (the earlier Brain is written back with the revision check, so a change made elsewhere is never overwritten).
+How to download, build and connect the local library is in [Wikipedia Library](#wikipedia-library). Results stay pinned to the library `brain wiki status` names: if the library is off, missing or answers from another file, the panel says so, keeps your search, and shows no results. Cite picks a note (or "New note"); a note cites an article once. Save to Brain files the article in Resources with the tag `wikipedia`. Both can be undone with `u` (the earlier Brain is written back with the revision check, so a change made elsewhere is never overwritten).
 
 ## Configuration
 
@@ -131,6 +131,54 @@ Settings (theme, list pane, last tab, the Live elements, speed and update interv
 | `NUZEHUB_TUI_STATE_DIR` | Settings directory |
 | `NUZEHUB_TUI_GRAPHICS` | `kitty`, `braille` or `text` |
 | `NUZEHUB_SSH_HOST` | ssh target used by `scripts/install-remote-launcher.sh` |
+| `NUZEHUB_WIKI_DB` | Path to the local Wikipedia SQLite library, set on the NuzeHub desk (see [Wikipedia Library](#wikipedia-library)) |
+| `SB_WIKI_DB` | Fallback library path if `NUZEHUB_WIKI_DB` is unset |
+
+## Wikipedia Library
+
+The Wikipedia tab searches a **local** full-text library that you build on your machine. This repository does not include that library, and you must never commit, push, or upload:
+
+- Hugging Face dataset shards (`enwiki_namespace_0_*.jsonl.gz`)
+- the built `wikipedia.sqlite` (or `-journal` / `-wal` / `-shm`)
+- any dump or extract of article text
+
+Download the dataset yourself, build the SQLite index locally with Second Brain, and point the NuzeHub desk at the resulting database.
+
+**Source and license.** The dataset is [marin-community/wikipedia-markdown](https://huggingface.co/datasets/marin-community/wikipedia-markdown) (English Wikipedia namespace 0). Article text is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) by Wikipedia contributors. The Markdown conversion is by the Marin Community. Cite Wikipedia when you reuse the text.
+
+### Download and build
+
+Keep the download and the database **outside any git repository** (including this one). The dataset and the built index each take tens of gigabytes.
+
+```zsh
+# 1. Download the dataset. Pick one method:
+
+# Hugging Face CLI
+hf download marin-community/wikipedia-markdown --repo-type dataset --local-dir /path/to/wikipedia-markdown
+
+# or git clone with Git LFS / Xet
+git clone https://huggingface.co/datasets/marin-community/wikipedia-markdown /path/to/wikipedia-markdown
+
+# 2. Build the SQLite FTS5 library with Second Brain (resumable):
+sb-wiki-build --src /path/to/wikipedia-markdown --db /path/to/wikipedia.sqlite
+
+# 3. Confirm the library is ready
+brain wiki status
+```
+
+The shards are named `enwiki_namespace_0_*.jsonl.gz`. You can interrupt `sb-wiki-build` and run the same command again; it resumes where it stopped.
+
+### Connect NuzeHub and the TUI
+
+NuzeHub (the web desk and this TUI) uses that same local database. The TUI does not open the file itself: set the path on the machine that runs the desk, then restart the desk so the TUI can see it.
+
+```zsh
+export NUZEHUB_WIKI_DB=/path/to/wikipedia.sqlite
+# or, if you do not set NUZEHUB_WIKI_DB:
+export SB_WIKI_DB=/path/to/wikipedia.sqlite
+```
+
+`NUZEHUB_WIKI_DB` is tried first, then `SB_WIKI_DB`. `nuzehub-tui --demo` runs without a library.
 
 ## Theming
 
@@ -150,6 +198,7 @@ ssh forwards `TERM` but not `COLORTERM`. When `TERM` names a 24-bit terminal (`x
 - **Wrong interpreter after pipx.** Check `head -1 "$(command -v nuzehub-tui)"`. If it is not python3.11–3.13, run `pipx reinstall --python python3.13 nuzehub-tui`.
 - **Alt-letter menus do nothing in Ghostty.** Set `macos-option-as-alt = true`, or use F10.
 - **LM Studio is listed as the model.** That only happens when Ollama is not answering; start Ollama on the server to go back. LM Studio being absent is not an error.
+- **The Wikipedia tab says the library is off or missing.** The library is not shipped in this repository. Download and build it as described in [Wikipedia Library](#wikipedia-library), then point the NuzeHub desk at the database with `NUZEHUB_WIKI_DB` or `SB_WIKI_DB`. `--demo` does not need a library.
 
 ## Project structure
 
